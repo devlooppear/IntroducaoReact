@@ -1,0 +1,10 @@
+.geral{
+    min-height: 75vh;
+}
+
+body.vsc-initialized {
+    background-color: rgb(142, 249, 148);
+    text-align: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }

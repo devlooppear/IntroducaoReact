@@ -1,0 +1,10 @@
+.home_page img {
+    max-width: 30%;
+    align-items: center;
+    display: block;
+    margin: 6% auto 5% auto;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: aquamarine;
+    border: 5px solid black;
+}

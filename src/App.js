@@ -18,7 +18,8 @@ import ReactRouter from './components/ReactRouter';
 import ReactIcons from './components/ReactIcons';
 import Hooks from './components/Hooks';
 import { useState } from 'react';
-
+import styles from './components/pages/PagesCss/CardImagem.module.css'
+import style from './components/pages/PagesCss/Geral.module.css'
 
 function App() {
   const meusItens = ['React', 'Vue', 'Angular'];
@@ -28,7 +29,7 @@ function App() {
     return media;
   }
 
-  const [name, setName] = useState('Matheus');
+  const [name, setName] = useState('João');
   const [n1, setN1] = useState(5);
   const [n2, setN2] = useState(3);
   
@@ -38,12 +39,13 @@ function App() {
 
   return (
     <div className='App'>
-      <div className="card">
+      <div className={`${styles.imagens} card ${style.geral}`}>
         <div className='mx-3'>
           <h1 className="mt-1">Olá, React!</h1>
           <p>Essa é uma introdução ao React</p>
+          <p>O React é uma biblioteca JavaScript popular e poderosa para a construção de interfaces de usuário interativas e reativas. Nesta demonstração, vamos explorar alguns conceitos fundamentais do React e mostrar como criar componentes reutilizáveis e interativos.</p>
           <p>
-            Se eu escrever: Olá, [name] (sendo 'name' <code>const name = 'Matheus'</code>), eu posso exibir para o usuário o valor da
+            Se eu escrever: Olá, [name] (sendo 'name' <code>const name = 'João'</code>), eu posso exibir para o usuário o valor da
             variável name, onde seu output, para o usuário será 'Matheus'.
           </p>
           <p>Porém, também é possível alterar esses valores com algo que vamos abordar mais futuramente, o 'useStates'</p>
