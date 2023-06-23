@@ -58,5 +58,9 @@ Condicional: Um componente que demonstra o uso de condicionais no React.
 
 Além dos componentes, o código também inclui exemplos de manipulação de dados, operações matemáticas e exibição de imagens.
 
+## Quer conhecer através do site? Acesse:
+
+https://wonderful-heliotrope-6f9ec7.netlify.app/
+
 ## Considerações Finais
 Este código de introdução ao React aborda vários conceitos importantes. Sinta-se à vontade para explorar e modificar o código para aprender mais sobre o React e aprimorar suas habilidades de desenvolvimento de aplicativos React.
